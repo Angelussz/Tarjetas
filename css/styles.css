@@ -90,17 +90,32 @@ body{
 /* Card HORIZONTAL */
 
 .Card-Horizontal{
-  position: absolute;
-  margin-top: 50px;
-  /* width: 500px;
-  height: 500px; */
-  /* color: red; */
-  left: 35%;
-  top: 20%;
-  /* top: 0; */
+  
   /* background-color: red; */
+  position: relative;
+  width: 100%;
+  height: 400px;
 }
 
+.Card-Horizontal__Calculator,.Card-Horizontal__Supervisor{
+  position: absolute;
+  top: 14em;
+}
+
+
+
+.Card-Horizontal__Supervisor{
+  left: 2%;
+  box-shadow: 0px -5px hsl(180, 62%, 55%) ;
+}
+
+.Card-Horizontal__Calculator{
+  right: 2%;
+  box-shadow: 0px -5px hsl(212, 86%, 64%) ;
+}
+
+
+/*  */
 
 
 
