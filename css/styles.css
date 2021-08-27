@@ -1,0 +1,114 @@
+/*
+Colores
+  Tarjetas
+    Red: hsl(0, 78%, 62%)
+    Cyan: hsl(180, 62%, 55%)
+    Orange: hsl(34, 97%, 64%)
+    Blue: hsl(212, 86%, 64%)
+  Sombra
+    Dark Blue: hsl(240, 25%, 50%) al 20% de opacidad;
+  Texto
+    Grey: hsl(229, 6%, 66%)
+  Fondo de la tarjeta y del background
+    White: hsl(0, 0%, 93%)
+
+Fuente de la página
+  https://fonts.google.com/specimen/Poppins
+  Estilos 200, 400 y 600
+*/
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #F2FAF9;
+  text-align: center;
+}
+
+.Pretitle{
+  font-weight: 200;
+}
+
+.Title{
+  font-weight: 600;
+  margin-top: -15px;
+}
+
+.Title-text{
+  color: hsl(229, 6%, 66%);
+  margin: 0 -5px;
+}
+
+.Card{
+  width: 350px;
+  height: 200px;
+  color: hsl(229, 6%, 66%);
+  /* background-color: blue; */
+  text-align: left;
+  padding: 20px;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 5px 5px hsl(229, 6%, 66%);
+  
+}
+
+.Card--figure-icon{
+  position: absolute;
+  /* top: 0px; */
+  right: 14px;
+  bottom: 30px;
+  
+}
+
+/* CARD VERTICAL  */
+
+.Card-Vertical{
+  position: absolute;
+  margin-top: 50px;
+  /* width: 500px;
+  height: 500px; */
+  /* color: red; */
+  left: 35%;
+  /* top: 0; */
+  /* background-color: red; */
+}
+
+.Card-Vertical__TeamBuilder,.Card-Vertical__Karma{
+  /* padding-top:0px; */
+  border: .1px solid hsl(229, 6%, 66%);
+  margin-bottom: 60px;
+}
+
+.Card-Vertical__TeamBuilder{
+  box-shadow: 0px -5px hsl(0, 78%, 62%) ;
+}
+
+.Card-Vertical__Karma{
+  /* padding-top:0px; */
+  box-shadow: 0px -5px hsl(34, 97%, 64%) ;
+}
+/*  */
+
+/* Card HORIZONTAL */
+
+.Card-Horizontal{
+  position: absolute;
+  margin-top: 50px;
+  /* width: 500px;
+  height: 500px; */
+  /* color: red; */
+  left: 35%;
+  top: 20%;
+  /* top: 0; */
+  /* background-color: red; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
